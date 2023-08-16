@@ -1,0 +1,301 @@
+.myCenter{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+/* INICIO DE TITULO */
+
+.divTitle{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.titleHead{
+    font-size: 30px;
+    color: #629191;
+    font-family: "Chivo","Raleway", sans-serif;
+    font-weight: bold;
+}
+.descriptionHead{
+    font-size: 15px;
+    color: grey;
+    opacity: 60%;
+    font-weight: 100;
+}
+.myTitle{
+    font-size: 50px;
+    font-family: "Chivo","Raleway", sans-serif;
+    font-weight: bold;
+    color: #08495E;
+
+    width: 80%;
+    margin-top: 4%;
+
+    border-bottom: 1px solid grey; 
+    line-height: 0.1em;
+
+}
+.myTitle span { 
+    background:white; 
+    padding:0 5px; 
+}
+
+/* FIN TITULO */
+
+/* INICIO DESCUBRI */
+.divDescubri{
+    width: 80%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.myPrimer{
+    border: transparent;
+    border-top: 1px solid grey; 
+    border-bottom: 1px solid grey; 
+    border-style: dashed;
+    line-height: 0.1em;
+}
+.divPhoto{
+    width: 15%;
+}
+.divTitleCard{
+    width: 30%;
+}
+.divDescription{
+    width: 50%;
+}
+.divIcon{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divTitlePhoto{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.titlePhoto{
+    font-size: 13px;
+    color: white;
+    opacity: 85%;
+    font-family: "Chivo","Raleway", sans-serif;
+    font-weight: bold;
+}
+.myImg{
+    width: 200px;
+    height: 200px;
+}
+.myTitleCard{
+    font-size: 50px;
+    color: #08495E;
+    font-family: "Chivo","Raleway", sans-serif;
+    text-align: center;
+}
+.myDescription{
+    font-size: 20px;
+    color: #08495E;
+    text-align: inherit;
+    font-family: "Chivo","Raleway", sans-serif;
+    font-weight: bold;
+}
+.myIcon{
+    font-size: 50px; 
+    color: #08495E;
+}
+/* FIN DESCUBRI */
+
+.margin-top-5{
+    margin-top: 5%;
+}
+
+
+/* COMIENZO DE LOS WIDHT */
+.w-5{
+    width: 5% ;
+}
+.w-10{
+    width: 10% ;
+}
+.w-15{
+    width: 15% ;
+}
+.w-20{
+    width: 20% ;
+}
+.w-25{
+    width: 25% ;
+}
+.w-30{
+    width: 30% ;
+}
+.w-50{
+    width: 50% ;
+}
+.w-60{
+    width: 60% ;
+}
+.w-70{
+    width: 70% ;
+}
+
+/* FIN DE LOS WIDTH */
+
+/* COMIENZO EFECTOS */
+
+.slide-left { 
+    animation-name: animate-slide-left; 
+}
+.animate {
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+  }
+
+@keyframes animate-slide-left {
+  0% {
+    opacity: 0;
+    transform: translate(-200px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+
+
+
+
+/* FIN EFECTOS */
+
+
+
+
+
+
+
+/*************** MEDIAS QUERY ******************/ 
+
+@media (min-width: 350px) and (max-width: 600px) {
+    .divDescubri{
+        width: 100% !important;
+        display: grid;
+        flex-wrap: wrap !important;
+        margin-bottom: 50px !important;
+    }
+
+    .divPhoto{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .divTitleCard{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .divDescription{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+    .divIcon{
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .myImg{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .myTitleCard{
+        font-size: 20px !important;
+    }
+    .myDescription{
+        font-size: 8px !important;
+    }
+    .myIcon{
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .myImg{
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .myTitleCard{
+        font-size: 20px !important;
+    }
+    .myDescription{
+        font-size: 8px !important;
+    }
+    .myIcon{
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+    .myImg{
+        width: 90px !important;
+        height: 90px !important;
+    }
+    .myTitleCard{
+        font-size: 25px !important;
+    }
+    .myDescription{
+        font-size: 12px !important;
+    }
+    .myIcon{
+        font-size: 25px !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .myImg{
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .myTitleCard{
+        font-size: 25px !important;
+    }
+    .myDescription{
+        font-size: 13px !important;
+    }
+    .myIcon{
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+
+    .myImg{
+        width: 160px !important;
+        height: 160px !important;
+    }
+    .myTitleCard{
+        font-size: 35px !important;
+    }
+    .myDescription{
+        font-size: 16px !important;
+    }
+    .myIcon{
+        font-size: 45px !important;
+    }
+}
+

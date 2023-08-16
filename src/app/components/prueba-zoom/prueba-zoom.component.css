@@ -1,0 +1,244 @@
+.content{
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.nuestrosProductos{
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    /* border: 1px solid rgba(154,82,97,.3); */
+    border-radius: 10px;
+}
+.divTitle{
+    width: 30%;
+    
+    text-align: left;
+    z-index: 2;
+    opacity: 0;
+    font-family: "Chivo","Raleway", sans-serif;
+    animation: fade-in 5s forwards;
+}
+.title{
+    font-size: 90px;
+    color: #08495E;
+    font-weight: bold;
+}
+.divDescription{
+  z-index: 2;
+  display: flex;
+  justify-content: end;
+  margin-left: 150px;
+  width: 70%;
+}
+.myDescription{
+    width: 50%;
+    
+    text-align: center;
+    
+    z-index: 2;
+    opacity: 0;
+    animation: fade-in 7s forwards;
+}
+.description{
+    font-size: 25px;
+    color: #08495E;
+    font-family: "Chivo","Raleway", sans-serif;
+}
+
+
+.media-img{
+    width: 35%;
+    height: inherit;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1;
+    position: absolute;
+}
+.myPhoto{
+  width: 1200px;
+  height: 1200px;
+}
+
+
+.btn-minimalist {
+    background-color: transparent;
+    border: 1px solid #08495E;
+    border-radius: 5px;
+    font-family: "Chivo","Raleway", sans-serif;
+    color: #08495E;
+    padding: 5px 80px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15%;
+  }
+  
+  .btn-minimalist:hover {
+    background-color: #08495E;
+    color: white;
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInBottomRight {
+    0% {
+      transform: translateX(100%) translateY(100%);
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+    }
+  }
+
+  .fade-in-animation {
+    opacity: 0;
+    animation: fade-in 1s forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      /* Otros estilos de inicio de la animación */
+    }
+    to {
+      opacity: 1;
+      /* Otros estilos de finalización de la animación */
+    }
+  }
+
+
+
+/******************* MEDIAS QUERY *************************/
+@media (min-width: 350px) and (max-width: 600px) {
+  .nuestrosProductos{
+    width: 100% !important;
+    display: inline-grid !important;  
+  }
+  .divTitle{
+    width: 100% !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .divDescription{
+    width: 100% !important;
+
+    margin-left: 0 !important;
+  }
+  .myDescription{
+    width: 100% !important;
+  }
+  .media-img{
+    width: 100% !important;
+    justify-self: center !important;
+  }
+  .title{
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+
+  .description{
+    font-size: 15px !important;
+  }
+  .btn-minimalist{
+    font-size: 12px !important;
+    padding: 5px 25px !important;
+    margin: 0 !important;
+  }
+  .myPhoto{
+    width: 400px !important;
+    height: 400px !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .title{
+    font-size: 30px !important;
+  }
+  .divDescription{
+    margin-left: 200px !important;
+  }
+  .description{
+    font-size: 10px !important;
+  }
+  .btn-minimalist{
+    font-size: 12px !important;
+    padding: 5px 25px !important;
+  }
+  .myPhoto{
+    width: 600px !important;
+    height: 600px !important;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .title{
+    font-size: 30px !important;
+  }
+  .description{
+    font-size: 12px !important;
+  }
+  .btn-minimalist{
+    font-size: 15px !important;
+    padding: 5px 30px !important;
+  }
+  .myPhoto{
+    width: 700px !important;
+    height: 700px !important;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .title{
+    font-size: 40px !important;
+  }
+  .description{
+    font-size: 15px !important;
+  }
+  .btn-minimalist{
+    font-size: 15px !important;
+    padding: 5px 30px !important;
+  }
+  .myPhoto{
+    width: 800px !important;
+    height: 800px !important;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .title{
+    font-size: 65px !important;
+  }
+  .description{
+    font-size: 20px !important;
+  }
+  .btn-minimalist{
+    font-size: 18px !important;
+    padding: 5px 60px !important;
+  }
+  .myPhoto{
+    width: 900px !important;
+    height: 900px !important;
+  }
+}

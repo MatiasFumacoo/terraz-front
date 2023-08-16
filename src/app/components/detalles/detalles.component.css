@@ -1,0 +1,206 @@
+.center{
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal{
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.myDescription{
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.description{
+  font-size: 40px;
+  font-family: "Chivo","Raleway", sans-serif;
+  font-weight: bold;
+  color: #08495E;
+}
+.myPhoto{
+  width: 60%;
+  align-items: center;
+}
+.photo{
+  width: 800px;
+  height: 460px;
+}
+
+.gallery {
+    --z: 450px;  /* Tamaño de Imagen  */
+    --s: 450px; /* Tamaño*/
+    --g: 240px; /*Separacion*/
+    
+    display: grid;
+    gap: var(--g);
+    width: calc(2*var(--s) + var(--g));
+    grid-auto-flow: column;
+  }
+  .gallery > img {
+    width: 0;
+    min-width: calc(100% + var(--z)/2);
+    height: var(--s);
+    object-fit: cover;
+
+    cursor: pointer;
+    transition: .5s;
+  }
+  .gallery > img:hover {
+    width: calc(var(--s)/2);
+  }
+
+
+
+.divGlobal{
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  margin-bottom: 80px;
+  flex-wrap: nowrap;
+}
+.divTextTitle{
+  width: 80%;
+  display: flex;
+}
+.divTitle{
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+
+}
+.myTitle{
+  font-size: 50px;
+  font-family: "Chivo","Raleway", sans-serif;
+  font-weight: 600;
+  color: #4F9F9D;
+}
+.divDescription{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.descriptionTitle{
+  font-size: 30px;
+  font-family: "Chivo","Raleway", sans-serif;
+  font-weight: bold;
+  color: #323232;
+  opacity: 30%;
+}
+
+
+
+
+
+
+/************ MEDIAS QUERY *************/ 
+@media (min-width: 350px) and (max-width: 600px) {
+  .principal{
+    width: 100% !important;
+    display: grid !important;
+  }
+  .myPhoto{
+    width: 100% !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .myDescription{
+    width: 100% !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo{
+    width: 450px !important;
+    height: 400px !important;
+  }
+  .gallery{
+    --z: 200px !important;  /* Tamaño de Imagen  */
+    --s: 250px !important; /* Tamaño */
+    --g: 120px !important; /*Separacion*/
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .principal{
+    width: 100% !important;
+    display: grid !important;
+  }
+  .myPhoto{
+    width: 100% !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .myDescription{
+    width: 100% !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo{
+    width: 450px !important;
+    height: 400px !important;
+  }
+  .gallery{
+    --z: 200px !important;  /* Tamaño de Imagen  */
+    --s: 250px !important; /* Tamaño */
+    --g: 120px !important; /*Separacion*/
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .photo{
+    width: 550px !important;
+    height: 440px !important;
+  }
+  .gallery{
+    --z: 280px !important;  /* Tamaño de Imagen  */
+    --s: 280px !important; /* Tamaño */
+    --g: 150px !important; /*Separacion*/
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .photo{
+    width: 580px !important;
+    height: 460px !important;
+  }
+  .gallery{
+    --z: 350px !important;  /* Tamaño de Imagen  */
+    --s: 300px !important; /* Tamaño */
+    --g: 190px !important; /*Separacion*/
+  }
+
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .photo{
+    width: 800px !important;
+    height: 460px !important;
+  }
+  .gallery{
+    --z: 400px !important;  /* Tamaño de Imagen  */
+    --s: 430px !important; /* Tamaño */
+    --g: 220px !important; /*Separacion*/
+  }
+}

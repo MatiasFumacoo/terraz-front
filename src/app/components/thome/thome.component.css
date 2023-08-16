@@ -1,0 +1,258 @@
+.myCenter{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.firtsDiv{
+    width: 100%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.secondDiv{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.divCards{
+    width: 80%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divCards2{
+    width: 80%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.divMyCard{
+    width: 33%;
+}
+.myCard{
+    width: 350px;
+    height: 520px;
+}
+.text{
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.title{
+    font-family: "Chivo","Raleway", sans-serif;
+
+    color: #08495E;
+    font-size: 30px;
+    
+    margin-top: 5px;
+}
+.description{
+    font-family: "Chivo","Raleway", sans-serif;
+
+    color: #08495E;
+    font-size: 20px;
+    
+    margin-top: 5px;
+}
+
+.divGlobal{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+    flex-wrap: nowrap;
+}
+.divTextTitle{
+    width: 80%;
+    display: flex;
+}
+.divTitle{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+
+}
+.myTitle{
+    font-size: 50px;
+    font-family: "Chivo","Raleway", sans-serif;
+    font-weight: 600;
+    color: #4F9F9D;
+}
+.divDescription{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.descriptionTitle{
+    font-size: 30px;
+    font-family: "Chivo","Raleway", sans-serif;
+    font-weight: bold;
+    color: #323232;
+    opacity: 30%;
+}
+
+
+
+
+.myTitle span { 
+    background:white; 
+    padding:0 5px; 
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.photo{
+    width: 350px; 
+    height: 470px;
+}
+
+.myButton {
+    background-color: transparent;
+    border: 1px solid #08495E;
+    border-radius: 5px;
+    font-family: "Chivo","Raleway", sans-serif;
+    color: #08495E;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.myButton:hover {
+background-color: #08495E;
+color: white;
+}
+
+/************ MEDIAS QUERY *************/ 
+@media (min-width: 350px) and (max-width: 600px) {
+    .divCards{
+        display: grid !important;
+    }
+    .divCards2{
+        display: grid !important;
+    }
+    .myCard{
+        width: 100% !important;
+
+        display: grid !important;
+        margin-bottom: 80px !important;
+
+
+        height: 320px;
+    }
+    .photo{
+        width: 200px !important; 
+        height: 300px !important;
+    }
+    .title{
+        font-size: 20px !important;
+    }
+    .description{
+        font-size: 10px !important;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .myCard{
+        width: 130px;
+        height: 320px;
+    }
+    .photo{
+        width: 200px !important; 
+        height: 300px !important;
+    }
+    .title{
+        font-size: 20px !important;
+    }
+    .description{
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+    .myCard{
+        width: 180px;
+        height: 420px;
+    }
+    .photo{
+        width: 220px !important; 
+        height: 300px !important;
+    }
+    .title{
+        font-size: 20px !important;
+    }
+    .description{
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .myCard{
+        width: 220px;
+        height: 450px;
+    }
+    .photo{
+        width: 250px !important; 
+        height: 350px !important;
+    }
+    .title{
+        font-size: 35px !important;
+    }
+    .description{
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .myCard{
+        width: 220px;
+        height: 450px;
+    }
+    .photo{
+        width: 280px !important; 
+        height: 380px !important;
+    }
+    .title{
+        font-size: 35px !important;
+    }
+    .description{
+        font-size: 18px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 80px;
+  background-color: #08495E;
+  position: relative;
+  padding: 0px 70px;
+}
+
+.divLogo{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.myLogo{
+  width: 100px;
+  height: 40px;
+}
+.divText{
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+}
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.myText {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 20px;
+  font-weight: 100;
+  font-family: "Chivo","Raleway", sans-serif;
+}
+.divContact{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  position: end;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+.myIcon{
+    height: 25px;
+}
+
+
+.ani{
+        position: relative;
+    animation-name: myAnimation;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes myAnimation {
+    from {top: -100px; opacity: 0%;}
+    to {top: 0px; opacity: 100%;}
+}
+
+.myNav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-icons{
+    display: flex;
+    justify-content: center;
+}
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .navbar-logo {
+    color: #ff3f34;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 20px;
+  }
+
+
+
+
+
+  /************ MEDIAS QUERY *************/ 
+@media (min-width: 350px) and (max-width: 600px) {
+  .myIcon{
+    margin-left: -80px !important;
+    height: 20px !important;
+
+  }
+  .myText{
+    font-size: 10px !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+
+}
