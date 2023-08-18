@@ -22,3 +22,8 @@ body {
 .mr-10{
     margin-right: 10%;
 }
+
+@font-face {
+    font-family: "Chivo";
+    src: url("../assets/Fuentes/Chivo-VariableFont_wght.ttf");
+}
