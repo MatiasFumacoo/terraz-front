@@ -31,7 +31,7 @@
   width: 100vw;
 }
 .myText {
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   text-decoration: none;
   color: #fff;
   padding: 1vw 1vw;
@@ -106,9 +106,6 @@
     margin-left: -80px !important;
     height: 20px !important;
 
-  }
-  .myText{
-    font-size: 10px !important;
   }
 }
 

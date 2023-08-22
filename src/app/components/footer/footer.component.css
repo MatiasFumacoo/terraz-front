@@ -2,27 +2,16 @@
     background-color: #08495E;
     color: white;
     padding: 20px;
-    text-align: center;
   }
   
   .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-  }
-  
-  .footer-logo {
-    flex-grow: 0;
-  }
-  
-  .footer-text {
-    flex-grow: 1;
-    margin: 0 10px;
-    text-align: center;
+    flex-wrap: wrap;
   }
   
 .footer-icons {
-  flex-grow: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,43 +29,11 @@
   }
   
   .myText {
-    font-size: 15px;
+    font-size: 12px;
     font-family: "Chivo","Raleway", sans-serif;
-    font-weight: bold;
     margin-bottom: 0;
+    font-weight: 150;
   }
 .myIcon{
-  font-size: 15px;
-}
-/************ MEDIAS QUERY *************/ 
-@media (min-width: 350px) and (max-width: 600px) {
-  .myText{
-    font-size: 10px !important;
-  }
-  .myIcon{
-    font-size: 10px !important;
-  }
-}
-
-@media (min-width: 601px) and (max-width: 900px) {
-
-  .myText{
-    font-size: 13px !important;
-  }
-  .myIcon{
-    font-size: 13px !important;
-  }
-
-}
-
-@media (min-width: 900px) and (max-width: 1024px) {
-
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-
-}
-
-@media (min-width: 1201px) and (max-width: 1600px) {
-
+  font-size: 12px;
 }

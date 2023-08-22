@@ -51,11 +51,10 @@
 /* INICIO DESCUBRI */
 .divDescubri{
     width: 80%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 3vw;
 }
 .myPrimer{
     border: transparent;
@@ -65,13 +64,13 @@
     line-height: 0.1em;
 }
 .divPhoto{
-    width: 15%;
+    width: 5%;
 }
 .divTitleCard{
     width: 30%;
 }
 .divDescription{
-    width: 50%;
+    width: 60%;
 }
 .divIcon{
     width: 10%;
@@ -99,20 +98,20 @@
     height: 200px;
 }
 .myTitleCard{
-    font-size: 50px;
+    font-size: 2vw;
     color: #08495E;
     font-family: "Chivo","Raleway", sans-serif;
-    text-align: center;
+    padding-left: 3vw;
 }
 .myDescription{
     font-size: 20px;
     color: #08495E;
     text-align: inherit;
     font-family: "Chivo","Raleway", sans-serif;
-    font-weight: bold;
+    font-weight: 150;
 }
 .myIcon{
-    font-size: 50px; 
+    font-size: 1.5vw; 
     color: #08495E;
 }
 /* FIN DESCUBRI */
@@ -195,7 +194,6 @@
         width: 100% !important;
         display: grid;
         flex-wrap: wrap !important;
-        margin-bottom: 50px !important;
     }
 
     .divPhoto{
@@ -223,9 +221,6 @@
         width: 50px !important;
         height: 50px !important;
     }
-    .myTitleCard{
-        font-size: 20px !important;
-    }
     .myDescription{
         font-size: 8px !important;
     }
@@ -238,9 +233,6 @@
     .myImg{
         width: 70px !important;
         height: 70px !important;
-    }
-    .myTitleCard{
-        font-size: 20px !important;
     }
     .myDescription{
         font-size: 8px !important;
@@ -255,9 +247,6 @@
         width: 90px !important;
         height: 90px !important;
     }
-    .myTitleCard{
-        font-size: 25px !important;
-    }
     .myDescription{
         font-size: 12px !important;
     }
@@ -270,9 +259,6 @@
     .myImg{
         width: 120px !important;
         height: 120px !important;
-    }
-    .myTitleCard{
-        font-size: 25px !important;
     }
     .myDescription{
         font-size: 13px !important;
@@ -288,9 +274,6 @@
         width: 160px !important;
         height: 160px !important;
     }
-    .myTitleCard{
-        font-size: 35px !important;
-    }
     .myDescription{
         font-size: 16px !important;
     }
@@ -299,3 +282,47 @@
     }
 }
 
+
+
+.contenedor-pelota {
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.pelota-terrenos {
+    width: 2vw;
+    height: 2vw;
+    background-color: #2b4b61;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.pelota-profesionales {
+    width: 2vw;
+    height: 2vw;
+    background-color: #599d9d;;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.pelota-matariales {
+    width: 2vw;
+    height: 2vw;
+    background-color: #52914c;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.pelota-servicios {
+    width: 2vw;
+    height: 2vw;
+    background-color: #de922f;
+    border-radius: 50%;
+    border: 2px solid black;
+}
