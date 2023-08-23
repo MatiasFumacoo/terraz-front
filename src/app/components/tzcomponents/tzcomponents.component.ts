@@ -20,9 +20,9 @@ export class TzcomponentsComponent {
 		config.keyboard = false;
 		config.pauseOnHover = false;
 
-    service.getConsultas().subscribe(data => {
-      console.log(data);
-    });
+    // service.getConsultas().subscribe(data => {
+    //   console.log(data);
+    // });
 	}
 
   

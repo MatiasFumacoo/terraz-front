@@ -23,6 +23,10 @@ body {
     margin-right: 10%;
 }
 
+.full-width{
+    width: -webkit-fill-available;
+}
+
 @font-face {
     font-family: "Chivo";
     src: url("../assets/Fuentes/Chivo-VariableFont_wght.ttf");

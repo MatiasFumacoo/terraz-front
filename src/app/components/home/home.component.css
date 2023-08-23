@@ -17,13 +17,11 @@
     align-items: center;
 }
 .home{
-    width: 800px;
-    height: 400px;
-
     position: relative;
     animation-name: myAnimation;
     animation-duration: 2s;  
     animation-fill-mode: forwards;
+    width: 100%;
 }
 
 

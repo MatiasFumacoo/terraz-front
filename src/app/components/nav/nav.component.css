@@ -1,28 +1,26 @@
 .navbar {
   display: flex;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 80px;
   background-color: #08495E;
   position: relative;
-  padding: 0px 70px;
 }
 
 .divLogo{
-    width: 20%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 .myLogo{
   width: 100px;
   height: 40px;
 }
 .divText{
-    width: 50%;
-
-    display: flex;
-    align-items: center;
+  width: 60%;
+  display: flex;
+  align-items: center;
 }
 .navbar-links {
   list-style-type: none;
@@ -30,97 +28,127 @@
   justify-content: space-around;
   width: 100vw;
 }
+
 .myText {
-  font-size: 1.2vw;
+  font-size: 2.5vh;
   text-decoration: none;
   color: #fff;
   padding: 1vw 1vw;
   font-weight: 100;
   font-family: "Chivo","Raleway", sans-serif;
 }
+
 .divContact{
-  width: 30%;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .contact{
   position: end;
   border: 1px solid white;
   border-radius: 4px;
   padding: 0.5vw 1vw;
 }
+
 .myIcon{
-    height: 2.5vw;
+  height: 50px;
 }
 
-
 .ani{
-        position: relative;
-    animation-name: myAnimation;
-    animation-duration: 2s;  
-    animation-fill-mode: forwards;
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 2s;  
+  animation-fill-mode: forwards;
 }
 
 @keyframes myAnimation {
-    from {top: -100px; opacity: 0%;}
-    to {top: 0px; opacity: 100%;}
+  from {top: -100px; opacity: 0%;}
+  to {top: 0px; opacity: 100%;}
 }
 
 .myNav{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
 .navbar-icons{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
   
-  body {
-    font-family: "Lato", sans-serif;
-  }
+body {
+  font-family: "Lato", sans-serif;
+}
   
-  .navbar-logo {
-    color: #ff3f34;
-    text-decoration: none;
-    font-size: 25px;
-    padding: 0px 20px;
+.menu-items-collapse{
+  background-color: #08495E;
+}
+
+.navbar-logo {
+  color: #ff3f34;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0px 20px;
+}
+
+.menu-collapse {
+  display: none;
+}
+
+.menu-items-collapse{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.button-collapse{
+  border: 2px solid white;
+  color: white;
+  font-size: x-large;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none; /* Quita los marcadores de la lista */
+  padding: 0; /* Elimina el espacio interno predeterminado */
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+/* Estilos opcionales para los elementos <li> */
+li {
+  padding: 10px; /* Añade un poco de espacio entre los elementos */
+}
+
+@media (max-width: 978px) {
+
+  .menu-collapse {
+    display: block;
   }
 
-
-
-
-
-  /************ MEDIAS QUERY *************/ 
-@media (min-width: 350px) and (max-width: 600px) {
-  .myIcon{
-    margin-left: -80px !important;
-    height: 20px !important;
-
+  .divText{
+    display: none;
   }
-}
 
-@media (min-width: 601px) and (max-width: 900px) {
+  .divContact{
+    display: none;
+  }
 
-}
-
-@media (min-width: 900px) and (max-width: 1024px) {
-
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-
-}
-
-@media (min-width: 1201px) and (max-width: 1600px) {
+  .navbar {
+    min-height: 80px;
+    height: auto;
+  }
 
 }

@@ -2,7 +2,7 @@
   <div class="myNav">
 
     <div class="divLogo">
-      <a href="#" class="navbar-logo"><img src="../../../assets/Imagenes/logohome.png" alt="" class="myIcon"></a>
+      <a href="#" class="navbar-logo"><img src="../../../assets/Imagenes/logo-blanco.png" alt="" class="myIcon"></a>
     </div>
 
     <div class="divText">
@@ -25,8 +25,40 @@
       <a href="#descubri" class="myText contact">CONTACTANOS</a>
     </div>
 
+    <div class="menu-collapse">
+      <button
+        type="button"
+        class="btn btn-outline-primary button-collapse"
+        (click)="collapse.toggle()"
+        [attr.aria-expanded]="!isCollapsed"
+        aria-controls="collapseExample"
+      >
+      <i class="bi bi-three-dots-vertical"></i>
+      </button>
+
+    </div>
+
+    <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed" class="full-width">
+      <div class="card">
+        <div class="card-body">
+          <ul class="menu-items-collapse">
+            <li class="navbar-dropdown">
+              <a href="#about" class="myText">DESARROLLOS</a>
+            </li>
+            <li class="navbar-dropdown">
+              <a href="#descubri" class="myText">PROYECTOS</a>
+            </li>
+            <li class="navbar-dropdown">
+              <a href="#descubri" class="myText">SEGUINOS</a>
+            </li>
+            <li>
+              <a href="#descubri" class="myText contact">CONTACTANOS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </div>
 
-  </nav>
-
-
+</nav>

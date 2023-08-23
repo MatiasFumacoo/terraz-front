@@ -13,6 +13,7 @@ import { appRoutingModules } from './app.routing';
 import { TzcomponentsComponent } from './components/tzcomponents/tzcomponents.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     NgbCarouselModule,
     HttpClientModule,
+    NgbCollapseModule,
     appRoutingModules,    
   ],
   providers: [],
