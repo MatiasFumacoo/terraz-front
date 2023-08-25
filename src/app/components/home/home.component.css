@@ -1,29 +1,30 @@
 .myBody{
     background-color: transparent;
     margin-top: 2%;
+    margin-bottom: 10vh;
 }
+
 .myPh{
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .myCenter{
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .home{
     position: relative;
-    animation-name: myAnimation;
+    /* animation-name: myAnimation; 
     animation-duration: 2s;  
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
     width: 100%;
 }
-
 
 @keyframes myAnimation {
     from {left: -1000px; opacity: 0%;}

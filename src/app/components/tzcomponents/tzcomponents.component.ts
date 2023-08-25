@@ -1,7 +1,8 @@
 import { Component, HostListener, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
-import { ConsultaService } from 'src/app/services/consultas.service';
+import { SeccionesService } from 'src/app/services/secciones.services';
+import { Seccion } from 'src/app/models/seccion.model';
 
 @Component({
   selector: 'app-tzcomponents',
@@ -11,21 +12,19 @@ import { ConsultaService } from 'src/app/services/consultas.service';
 export class TzcomponentsComponent {
 
   images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  secciones: Seccion[] = [];
 
-
-	constructor(config: NgbCarouselConfig,private router: Router, service: ConsultaService) {
+	constructor(config: NgbCarouselConfig,private router: Router, service: SeccionesService) {
 		// customize default values of carousels used by this component tree
 		config.interval = 10000;
 		config.wrap = false;
 		config.keyboard = false;
 		config.pauseOnHover = false;
 
-    // service.getConsultas().subscribe(data => {
-    //   console.log(data);
-    // });
+    service.getSecciones().subscribe(data => {
+      this.secciones = data;
+    });
 	}
-
-  
 
   @Input()
   titulo?: string;
