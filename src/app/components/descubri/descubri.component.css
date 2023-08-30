@@ -300,7 +300,6 @@
     height: 2vw;
     background-color: #2b4b61;
     border-radius: 50%;
-    border: 2px solid black;
 }
 
 .pelota-profesionales {
@@ -308,7 +307,6 @@
     height: 2vw;
     background-color: #599d9d;;
     border-radius: 50%;
-    border: 2px solid black;
 }
 
 .pelota-matariales {
@@ -316,7 +314,7 @@
     height: 2vw;
     background-color: #52914c;
     border-radius: 50%;
-    border: 2px solid black;
+
 }
 
 .pelota-servicios {
@@ -324,5 +322,4 @@
     height: 2vw;
     background-color: #de922f;
     border-radius: 50%;
-    border: 2px solid black;
 }
