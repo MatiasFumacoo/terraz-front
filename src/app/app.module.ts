@@ -14,6 +14,7 @@ import { TzcomponentsComponent } from './components/tzcomponents/tzcomponents.co
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import { GoogleMapsModule } from '@angular/google-maps'
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
     NgbCarouselModule,
     HttpClientModule,
     NgbCollapseModule,
+    GoogleMapsModule,
     appRoutingModules,    
   ],
   providers: [],

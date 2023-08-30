@@ -91,20 +91,25 @@
         </div>
     </div>
 
-    
 </div>
 </div>
 
 <ng-template #content let-c="close" let-d="dismiss">
 	<div class="modal-header">
-		<h4 class="modal-title" id="modal-basic-title">Hi there!</h4>
 		<button type="button" class="btn-close" aria-label="Close" (click)="d('Cross click')"></button>
 	</div>
 	<div class="modal-body">
-		<p>Hello, World!</p>
-	</div>
-	<div class="modal-footer">
-		<button type="button" class="btn btn-outline-dark" (click)="c('Save click')">Save</button>
+		<google-map
+            width="100%"
+            [zoom]="zoom"
+            [center]="center"
+            [zoom]="zoom"
+            (mapClick)="addMarker($event)">
+        <map-marker *ngFor="let markerPosition of markerPositions"
+                    [position]="markerPosition"
+                    [options]="markerOptions"></map-marker>
+        </google-map>
+
 	</div>
 </ng-template>
 

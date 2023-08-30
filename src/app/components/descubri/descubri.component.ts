@@ -8,6 +8,19 @@ import { NgbModal, NgbModalConfig } from '@ng-bootstrap/ng-bootstrap';
 })
 export class DescubriComponent {
 
+  center: google.maps.LatLngLiteral = {
+    lat: -34.6118,
+    lng: -58.4173
+  };
+  zoom = 10;
+  markerOptions: google.maps.MarkerOptions = {
+      draggable: false
+  };
+  markerPositions: google.maps.LatLngLiteral[] = [];
+  addMarker(event: google.maps.MapMouseEvent) {
+      if (event.latLng != null) this.markerPositions.push(event.latLng.toJSON());
+  }
+
 	constructor(config: NgbModalConfig, private modalService: NgbModal) {
 		// customize default values of modals used by this component tree
 		config.backdrop = 'static';
@@ -55,7 +68,5 @@ export class DescubriComponent {
 	open(content: any) {
 		this.modalService.open(content);
 	}
-
-
 
 }
