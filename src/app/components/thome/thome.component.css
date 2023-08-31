@@ -9,7 +9,7 @@
 
 .firtsDiv{
     width: 100%;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,8 +28,7 @@
     width: 80%;
 
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
 }
 
 .divCards2{
@@ -43,8 +42,11 @@
     width: 33%;
 }
 .myCard{
-    width: 350px;
-    height: 520px;
+    width: 444.7px;
+    height: 689px;
+
+    margin-left: 70.85px;
+    margin-right: 70.85px;
 }
 .text{
     width: 100%;
@@ -55,9 +57,9 @@
     font-family: "Chivo","Raleway", sans-serif;
 
     color: #08495E;
-    font-size: 30px;
+    font-size: 34px;
     
-    margin-top: 5px;
+    margin-top: 15.12px;
 }
 .description{
     font-family: "Chivo","Raleway", sans-serif;
@@ -77,7 +79,7 @@
     flex-wrap: nowrap;
 }
 .divTextTitle{
-    width: 80%;
+    width: 95%;
     display: flex;
 }
 .divTitle{
@@ -87,10 +89,10 @@
 
 }
 .myTitle{
-    font-size: 50px;
+    font-size: 55px;
     font-family: "Chivo","Raleway", sans-serif;
-    font-weight: 600;
-    color: #4F9F9D;
+    font-weight: 300;
+    color: #599d9d;
 }
 .divDescription{
     width: 50%;
@@ -99,11 +101,10 @@
     align-items: flex-end;
 }
 .descriptionTitle{
-    font-size: 30px;
+    font-size: 23px;
     font-family: "Chivo","Raleway", sans-serif;
-    font-weight: bold;
-    color: #323232;
-    opacity: 30%;
+    font-weight: 300;
+    color: #599d9d;
 }
 
 
@@ -131,7 +132,7 @@
     font-family: "Chivo","Raleway", sans-serif;
     color: #08495E;
     padding: 5px 10px;
-    font-size: 15px;
+    font-size: 12.5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }

@@ -15,17 +15,17 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    align-items: end;
 }
 .titleHead{
-    font-size: 30px;
-    color: #629191;
+    font-size: 55px;
+    color: #599D9D;
     font-family: "Chivo","Raleway", sans-serif;
-    font-weight: bold;
+    font-weight: 300;
 }
 .descriptionHead{
-    font-size: 15px;
-    color: grey;
-    opacity: 60%;
+    font-size: 23px;
+    color: #599D9D;
     font-weight: 100;
 }
 .myTitle{
@@ -108,7 +108,7 @@
     color: #08495E;
     text-align: inherit;
     font-family: "Chivo","Raleway", sans-serif;
-    font-weight: 150;
+    font-weight: 500;
 }
 .myIcon{
     font-size: 1.5vw; 
@@ -284,7 +284,7 @@
 
 
 
-.contenedor-pelota {
+.contenedor-pelota-terrenos {
     width: 3vw;
     height: 3vw;
     display: flex;
@@ -292,34 +292,69 @@
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid black;
+    border: 2px solid #003742;
 }
-
 .pelota-terrenos {
     width: 2vw;
     height: 2vw;
-    background-color: #2b4b61;
+    background-color: #003742;
     border-radius: 50%;
 }
 
+
+
+.contenedor-pelota-profesionales {
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #039E9E;
+}
 .pelota-profesionales {
     width: 2vw;
     height: 2vw;
-    background-color: #599d9d;;
+    background-color: #039E9E;;
     border-radius: 50%;
 }
 
-.pelota-matariales {
+
+
+.contenedor-pelota-materiales {
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #019246;
+}
+.pelota-materiales {
     width: 2vw;
     height: 2vw;
-    background-color: #52914c;
+    background-color: #019246;
     border-radius: 50%;
 
 }
 
+
+
+.contenedor-pelota-servicios {
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #F5921E;
+}
 .pelota-servicios {
     width: 2vw;
     height: 2vw;
-    background-color: #de922f;
+    background-color: #F5921E;
     border-radius: 50%;
 }

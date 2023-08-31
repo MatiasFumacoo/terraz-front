@@ -1,8 +1,10 @@
 .center{
-  width: 80%;
+  width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .principal{
@@ -15,17 +17,18 @@
 }
 
 .myDescription{
-  width: 40%;
+  width: 586px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-right: 30px;
 }
 
 .description{
-  font-size: 40px;
+  font-size: 28px;
   font-family: "Chivo","Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   color: #08495E;
 }
 
@@ -48,6 +51,7 @@
   gap: var(--g);
   width: calc(2*var(--s) + var(--g));
   grid-auto-flow: column;
+  margin-left: -330px;
 }
 
 .gallery > img {
@@ -86,10 +90,10 @@
 }
 
 .myTitle{
-  font-size: 50px;
+  font-size: 55px;
   font-family: "Chivo","Raleway", sans-serif;
-  font-weight: 600;
-  color: #4F9F9D;
+  font-weight: 300;
+  color: #599D9D;
 }
 
 .divDescription{
@@ -100,11 +104,10 @@
 }
 
 .descriptionTitle{
-  font-size: 30px;
+  font-size: 23px;
   font-family: "Chivo","Raleway", sans-serif;
-  font-weight: bold;
-  color: #323232;
-  opacity: 30%;
+  font-weight: 300;
+  color: #599D9D;
 }
 
 
