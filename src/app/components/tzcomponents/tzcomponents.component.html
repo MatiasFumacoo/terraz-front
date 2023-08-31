@@ -1,6 +1,6 @@
 <ngb-carousel *ngIf="images" [showNavigationIndicators]="false" [showNavigationArrows]="false" [wrap]="true" #carousel>
 
-  <ng-template ngbSlide *ngFor="let seccion of secciones">
+  <ng-template ngbSlide>
     <div>
 
       <div class="divImg">
@@ -10,16 +10,16 @@
       <div class="colored-div">
     
         <div class="numero-gigante">
-          {{seccion.orden}}
+          1
         </div>
     
         <div class="descripcion-cosas">
           <div>
             <div class="divTitle">
-              <h3 class="title">{{seccion.nombre}}</h3>
+              <h3 class="title">TZ APARTMENTS</h3>
             </div>
             <div class="divDescription">
-              <p class="description">{{seccion.descripcion}}</p>
+              <p class="description">Mirá el paso a paso de nuestras obras</p>
             </div>
             <div class="divButton">
               <button class="myButton">Ver más</button>
@@ -31,12 +31,12 @@
 
           <div class="divTextBar">
             <h1 class="textBar">Siguiente sección</h1>
-            <h1 class="textBar">{{seccion.siguienteSeccion}}</h1>
+            <h1 class="textBar">TZ HOME</h1>
           </div>
     
           <div class="divNumBar">
             
-              <h1 class="numBar">{{seccion.siguienteOrden}}</h1>
+              <h1 class="numBar">2</h1>
 
               <a class="custom-next-arrow" (click)="carousel.next()">
                 <i class="bi bi-arrow-right-circle custom-nav-arrows"></i>

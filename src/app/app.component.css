@@ -31,3 +31,8 @@ body {
     font-family: "Chivo";
     src: url("../assets/Fuentes/Chivo-VariableFont_wght.ttf");
 }
+
+@font-face {
+    font-family: "WhatTeacherWants";
+    src: url("../assets/Fuentes/KGWhattheTeacherWants.ttf");
+}

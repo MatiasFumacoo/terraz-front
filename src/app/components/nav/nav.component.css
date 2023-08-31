@@ -3,8 +3,12 @@
   align-items: center;
   width: 100%;
   height: 80px;
-  background-color: #08495E;
+  background-color: #113A44;
   position: relative;
+}
+
+.navbar-dropdown{
+  padding: 10px 45px;
 }
 
 .divLogo{
@@ -30,12 +34,12 @@
 }
 
 .myText {
-  font-size: 2.5vh;
+  font-size: 23.8px;
   text-decoration: none;
   color: #fff;
   padding: 1vw 1vw;
   font-weight: 100;
-  font-family: "Chivo","Raleway", sans-serif;
+  font-family: "Popping light";
 }
 
 .divContact{
@@ -132,7 +136,7 @@ li {
   padding: 10px; /* Añade un poco de espacio entre los elementos */
 }
 
-@media (max-width: 978px) {
+/* @media (max-width: 978px) {
 
   .menu-collapse {
     display: block;
@@ -151,4 +155,4 @@ li {
     height: auto;
   }
 
-}
+} */

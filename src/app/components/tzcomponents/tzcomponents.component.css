@@ -6,32 +6,35 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .myText{
     width: 50%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .text{
     width: 100%;
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .divTitle{
     width: 80%;
     margin-bottom: 3vh;
-
 }
+
 .title{
-    font-size: 4vw;
+    font-size: 99px;
     font-family: "Chivo","Raleway", sans-serif;
     font-weight: bold;
     color: #08495E;
     text-align: start;
 }
+
 .divDescription{
     width: 65%;
     margin-bottom: 3vh;
@@ -39,9 +42,10 @@
     justify-content:  flex-start;
     align-items: center;
 }
+
 .description{
     width: 70%;
-    font-size: 1.5vw;
+    font-size: 32px;
     font-family: "Chivo","Raleway", sans-serif;
     font-weight: 100;
     color: #08495E;
@@ -54,6 +58,7 @@
     justify-content:  flex-start;
     align-items: center;
 }
+
 .myButton {
     background-color: transparent;
     border: 1px solid #08495E;
@@ -67,10 +72,9 @@
 }
 
 .myButton:hover {
-background-color: #08495E;
-color: white;
+    background-color: #08495E;
+    color: white;
 }
-
 
 .number{
     font-size: 50px;
@@ -79,45 +83,39 @@ color: white;
 }
 
 .textBar{
-    font-size: 1.3vw;
+    font-size: 32px;
     color: white;
-    font-weight: bold;
 }
+
 .divNumBar{
     width: 30%;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .numBar{
-    font-size: 3vw;
+    font-size: 107px;
     color: white;
     font-weight: bold;
     margin-bottom: 0 !important;
 }
-
-
-
 
 .divTextBar{
     padding-right: 25px;
     border-right: 1px solid white;
 }
 
-
-
 .numero-gigante{
     color: #ECECEC;
-    font-size: 40vw;
-    padding-left: 1vw;
+    font-size: 1076px;
+    padding-left: 10vw;
+    padding-bottom: 12vh;
     font-weight: 700;
     z-index: 2;
-
     display: flex;
     align-items: center;
-    font-family: "Chivo","Raleway", sans-serif;
-
+    font-family: "WhatTeacherWants";
 }
 
 .colored-div {
@@ -160,10 +158,11 @@ color: white;
 .custom-nav-arrows {
     color: white;
     font-size: 1.5vw;
-  }
-  .custom-next-arrow :hover{
+}
+
+.custom-next-arrow :hover{
     cursor: pointer;
-  }
+}
   
   .custom-prev-arrow,
   .custom-next-arrow {

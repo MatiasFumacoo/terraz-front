@@ -1,6 +1,5 @@
 .footer {
-    background-color: #08495E;
-    color: white;
+    background-color: lightgray;
     padding: 20px;
   }
   
@@ -29,7 +28,7 @@
   }
   
   .myText {
-    font-size: 12px;
+    font-size: 17px;
     font-family: "Chivo","Raleway", sans-serif;
     margin-bottom: 0;
     font-weight: 150;
