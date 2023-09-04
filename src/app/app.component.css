@@ -31,3 +31,18 @@ body {
     font-family: "Chivo";
     src: url("../assets/Fuentes/Chivo-VariableFont_wght.ttf");
 }
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../assets/Fuentes/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("../assets/Fuentes/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "KGWhattheTeacherWants";
+    src: url("../assets/Fuentes/KGWhattheTeacherWants.ttf");
+}

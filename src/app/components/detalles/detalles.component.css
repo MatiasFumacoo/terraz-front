@@ -6,27 +6,28 @@
 }
 
 .principal{
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
   height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  margin-bottom: 10%;
 }
 
 .myDescription{
   width: 40%;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .description{
-  font-size: 40px;
-  font-family: "Chivo","Raleway", sans-serif;
-  font-weight: bold;
-  color: #08495E;
+  font-size: 1.5vw;
+  color: #003742;
+  padding: 20px 20px 20px 0px;
+  font-family: "Poppins-Light";
 }
 
 .myPhoto{
@@ -35,8 +36,8 @@
 }
 
 .photo{
-  width: 800px;
-  height: 460px;
+  max-width: 50vw;
+  max-height: 35vw;
 }
 
 .gallery {
@@ -65,17 +66,20 @@
 }
 
 .divGlobal{
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   text-align: center;
   margin-bottom: 80px;
   flex-wrap: nowrap;
+  margin-top: 5%;
 }
 
 .divTextTitle{
   width: 80%;
+  margin-right: 10%;
   display: flex;
+  margin-bottom: 5vw;
 }
 
 .divTitle{
@@ -86,10 +90,10 @@
 }
 
 .myTitle{
-  font-size: 50px;
-  font-family: "Chivo","Raleway", sans-serif;
-  font-weight: 600;
-  color: #4F9F9D;
+  font-size: 2.7vw;
+  color: #599D9D;
+  font-family: "Poppins-Light";
+  font-weight: bold;
 }
 
 .divDescription{
@@ -100,13 +104,11 @@
 }
 
 .descriptionTitle{
-  font-size: 30px;
-  font-family: "Chivo","Raleway", sans-serif;
+  font-size: 1.2vw;
+  color: #599D9D;
+  font-family: "Poppins-Light";
   font-weight: bold;
-  color: #323232;
-  opacity: 30%;
 }
-
 
 @media (max-width: 1024px) {
   .center  {

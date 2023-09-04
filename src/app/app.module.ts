@@ -14,7 +14,9 @@ import { TzcomponentsComponent } from './components/tzcomponents/tzcomponents.co
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
-import { GoogleMapsModule } from '@angular/google-maps'
+import { GoogleMapsModule } from '@angular/google-maps';
+import { BtnWppComponent } from './components/btn-wpp/btn-wpp.component';
+import { BtnArribaComponent } from './components/btn-arriba/btn-arriba.component'
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { GoogleMapsModule } from '@angular/google-maps'
     DetallesComponent,
     THomeComponent,
     TzcomponentsComponent,
+    BtnWppComponent,
+    BtnArribaComponent,
   ],
   imports: [
     BrowserModule,

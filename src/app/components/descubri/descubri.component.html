@@ -10,14 +10,14 @@
 
     </div>
 
-<div class="myCenter margin-top-5">
+<div class="myCenter">
 
     <!-- INICIO PRIMERO -->
     <div class="divDescubri">
         <div class="divPhoto">
             <!-- <img src="../../assets/Imagenes/terrenos-copia.png" alt="" class="myImg"> -->
-            <div class="contenedor-pelota">
-                <div class="pelota-terrenos"></div>
+            <div class="contenedor-pelota borde-terrenos">
+                <div class="pelota pelota-terrenos"></div>
             </div>
         </div>
         <div class="divTitleCard">
@@ -35,8 +35,8 @@
     <div class="divDescubri">
         <div class="divPhoto">
             <!-- <img src="../../assets/Imagenes/profesionales-copia.png" alt="" class="myImg"> -->
-            <div class="contenedor-pelota">
-                <div class="pelota-profesionales"></div>
+            <div class="contenedor-pelota borde-profesionales">
+                <div class="pelota pelota-profesionales"></div>
             </div>
         </div>
         <div class="divTitleCard">
@@ -55,8 +55,8 @@
     <div class="divDescubri">
         <div class="divPhoto">
             <!-- <img src="../../assets/Imagenes/servicios-copia.png" alt="" class="myImg"> -->
-            <div class="contenedor-pelota">
-                <div class="pelota-servicios"></div>
+            <div class="contenedor-pelota borde-servicios">
+                <div class="pelota pelota-servicios"></div>
             </div>
         </div>
         <div class="divTitleCard">
@@ -75,8 +75,8 @@
     <div class="divDescubri">
         <div class="divPhoto">
             <!-- <img src="../../assets/Imagenes/materiales-copia.png" alt="" class="myImg"> -->
-            <div class="contenedor-pelota">
-                <div class="pelota-matariales"></div>
+            <div class="contenedor-pelota borde-matariales">
+                <div class="pelota pelota-matariales"></div>
             </div>
         </div>
         <div class="divTitleCard">
@@ -95,19 +95,15 @@
 </div>
 
 <ng-template #content let-c="close" let-d="dismiss">
-	<div class="modal-header">
-		<button type="button" class="btn-close" aria-label="Close" (click)="d('Cross click')"></button>
-	</div>
+    <button type="button" class="btn-close btn-cerrar-mapa" aria-label="Close" (click)="d('Cross click')"></button>
+    
 	<div class="modal-body">
+
 		<google-map
             width="100%"
             [zoom]="zoom"
             [center]="center"
-            [zoom]="zoom"
-            (mapClick)="addMarker($event)">
-        <map-marker *ngFor="let markerPosition of markerPositions"
-                    [position]="markerPosition"
-                    [options]="markerOptions"></map-marker>
+            [zoom]="zoom">
         </google-map>
 
 	</div>

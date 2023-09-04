@@ -30,7 +30,7 @@
 }
 .title{
     font-size: 90px;
-    color: #08495E;
+    color: #003742;
     font-weight: bold;
 }
 .divDescription{
@@ -51,7 +51,7 @@
 }
 .description{
     font-size: 25px;
-    color: #08495E;
+    color: #003742;
     font-family: "Chivo","Raleway", sans-serif;
 }
 
@@ -75,10 +75,10 @@
 
 .btn-minimalist {
     background-color: transparent;
-    border: 1px solid #08495E;
+    border: 1px solid #003742;
     border-radius: 5px;
     font-family: "Chivo","Raleway", sans-serif;
-    color: #08495E;
+    color: #003742;
     padding: 5px 80px;
     font-size: 25px;
     cursor: pointer;
@@ -87,7 +87,7 @@
   }
   
   .btn-minimalist:hover {
-    background-color: #08495E;
+    background-color: #003742;
     color: white;
   }
   

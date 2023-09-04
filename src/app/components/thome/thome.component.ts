@@ -3,7 +3,7 @@ import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular
 @Component({
   selector: 'app-thome',
   templateUrl: './thome.component.html',
-  styleUrls: ['./thome.component.css']
+  styleUrls: ['./thome.component.css', '../../app.component.css']
 })
 export class THomeComponent implements OnInit {
 

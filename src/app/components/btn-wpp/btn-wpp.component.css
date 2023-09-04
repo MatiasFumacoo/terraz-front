@@ -1,0 +1,30 @@
+.floating-button {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    z-index: 1000;
+}
+  
+.floating-button button {
+    background-color: #113a44;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+.bi-whatsapp::before{
+    padding-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+    .floating-button button{
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}

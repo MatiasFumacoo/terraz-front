@@ -1,23 +1,23 @@
 .myCenter{
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 5%;
 }
 
 .firtsDiv{
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .secondDiv{
     width: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,51 +25,55 @@
 }
 
 .divCards{
-    width: 80%;
-
+    width: 95%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 .divCards2{
-    width: 80%;
-
+    width: 95%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
+
 .divMyCard{
     width: 33%;
 }
+
 .myCard{
-    width: 350px;
-    height: 520px;
+    width: 439px;
+    height: 580px;
 }
+
 .text{
     width: 100%;
     padding-top: 15px;
     padding-left: 30px;
 }
+
 .title{
-    font-family: "Chivo","Raleway", sans-serif;
-
-    color: #08495E;
-    font-size: 30px;
-    
-    margin-top: 5px;
+    font-family: "Poppins-Light";
+    color: #003742;
+    font-size: 1.8vw;
+    margin-top: 15px;
+    font-weight: bold;
 }
-.description{
-    font-family: "Chivo","Raleway", sans-serif;
 
-    color: #08495E;
+.text-end{
+    text-align: end;
+}
+
+.description{
+    font-family: "Poppins-Light";
+    color: #003742;
     font-size: 20px;
-    
     margin-top: 5px;
 }
 
 .divGlobal{
-    width: 80%;
+    width: 86%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -77,20 +81,19 @@
     flex-wrap: nowrap;
 }
 .divTextTitle{
-    width: 80%;
+    width: 100%;
     display: flex;
 }
 .divTitle{
     width: 50%;
     display: flex;
     align-items: flex-end;
-
 }
 .myTitle{
-    font-size: 50px;
-    font-family: "Chivo","Raleway", sans-serif;
+    font-size: 2.8vw;
+    font-family: "Poppins-Light";
     font-weight: 600;
-    color: #4F9F9D;
+    color: #599D9D;
 }
 .divDescription{
     width: 50%;
@@ -99,11 +102,10 @@
     align-items: flex-end;
 }
 .descriptionTitle{
-    font-size: 30px;
-    font-family: "Chivo","Raleway", sans-serif;
+    font-size: 1.2vw;
+    font-family: "Poppins-Light";
     font-weight: bold;
-    color: #323232;
-    opacity: 30%;
+    color: #599D9D;
 }
 
 
@@ -120,16 +122,16 @@
 }
 
 .photo{
-    width: 350px; 
-    height: 470px;
+    width: 380px;
+    height: 560px;  
 }
 
 .myButton {
     background-color: transparent;
-    border: 1px solid #08495E;
+    border: 1px solid #003742;
     border-radius: 5px;
-    font-family: "Chivo","Raleway", sans-serif;
-    color: #08495E;
+    font-family: "Poppins-Light";
+    color: #003742;
     padding: 5px 10px;
     font-size: 15px;
     cursor: pointer;
@@ -137,7 +139,7 @@
 }
 
 .myButton:hover {
-background-color: #08495E;
+background-color: #003742;
 color: white;
 }
 

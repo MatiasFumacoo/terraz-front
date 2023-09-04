@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 /* INICIO DE TITULO */
@@ -14,25 +14,23 @@
     width: 85%;
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
 }
 .titleHead{
-    font-size: 30px;
-    color: #629191;
-    font-family: "Chivo","Raleway", sans-serif;
-    font-weight: bold;
+    font-size: 2.7vw;
+    color: #599D9D;
+    font-family: "Poppins-Light";
 }
 .descriptionHead{
-    font-size: 15px;
-    color: grey;
-    opacity: 60%;
-    font-weight: 100;
+    font-size: 1.2vw;
+    color: #599D9D;
+    font-family: "Poppins-Light";
 }
 .myTitle{
     font-size: 50px;
     font-family: "Chivo","Raleway", sans-serif;
     font-weight: bold;
-    color: #08495E;
+    color: #003742;
 
     width: 80%;
     margin-top: 4%;
@@ -54,15 +52,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3vw;
+    margin: 45px 0px 80px 0px;
 }
-.myPrimer{
-    border: transparent;
-    border-top: 1px solid grey; 
-    border-bottom: 1px solid grey; 
-    border-style: dashed;
-    line-height: 0.1em;
-}
+
 .divPhoto{
     width: 5%;
 }
@@ -80,7 +72,6 @@
 }
 .divTitlePhoto{
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,21 +89,21 @@
     height: 200px;
 }
 .myTitleCard{
-    font-size: 2vw;
-    color: #08495E;
-    font-family: "Chivo","Raleway", sans-serif;
+    font-size: 1.8vw;
+    color: #003742;
     padding-left: 3vw;
+    font-family: "Poppins-Light";
 }
 .myDescription{
-    font-size: 20px;
-    color: #08495E;
+    font-size: 1.5vw;
+    color: #003742;
     text-align: inherit;
-    font-family: "Chivo","Raleway", sans-serif;
     font-weight: 150;
+    font-family: "Poppins-Light";
 }
 .myIcon{
-    font-size: 1.5vw; 
-    color: #08495E;
+    font-size: 26px; 
+    color: #003742;
 }
 /* FIN DESCUBRI */
 
@@ -175,114 +166,19 @@
   }
 }
 
-
-
-
-
-/* FIN EFECTOS */
-
-
-
-
-
-
-
-/*************** MEDIAS QUERY ******************/ 
-
-@media (min-width: 350px) and (max-width: 600px) {
-    .divDescubri{
-        width: 100% !important;
-        display: grid;
-        flex-wrap: wrap !important;
-    }
-
-    .divPhoto{
-        width: 100% !important;
-        display: flex !important;
-        justify-content: center !important;
-    }
-    .divTitleCard{
-        width: 100% !important;
-        display: flex !important;
-        justify-content: center !important;
-    }
-    .divDescription{
-        width: 100% !important;
-        display: flex !important;
-        justify-content: center !important;
-        text-align: center;
-    }
-    .divIcon{
-        width: 100% !important;
-        display: flex !important;
-        justify-content: center !important;
-    }
-    .myImg{
-        width: 50px !important;
-        height: 50px !important;
-    }
-    .myDescription{
-        font-size: 8px !important;
-    }
-    .myIcon{
-        font-size: 20px !important;
-    }
+.btn-cerrar-mapa{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    color: white;
+    font-size: x-large;
+    background-color: gray;
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
-    .myImg{
-        width: 70px !important;
-        height: 70px !important;
-    }
-    .myDescription{
-        font-size: 8px !important;
-    }
-    .myIcon{
-        font-size: 20px !important;
-    }
+.modal-body{
+    padding: 0;
 }
-
-@media (min-width: 900px) and (max-width: 1024px) {
-    .myImg{
-        width: 90px !important;
-        height: 90px !important;
-    }
-    .myDescription{
-        font-size: 12px !important;
-    }
-    .myIcon{
-        font-size: 25px !important;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-    .myImg{
-        width: 120px !important;
-        height: 120px !important;
-    }
-    .myDescription{
-        font-size: 13px !important;
-    }
-    .myIcon{
-        font-size: 30px !important;
-    }
-}
-
-@media (min-width: 1201px) and (max-width: 1600px) {
-
-    .myImg{
-        width: 160px !important;
-        height: 160px !important;
-    }
-    .myDescription{
-        font-size: 16px !important;
-    }
-    .myIcon{
-        font-size: 45px !important;
-    }
-}
-
-
 
 .contenedor-pelota {
     width: 3vw;
@@ -292,34 +188,42 @@
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid black;
+}
+
+.pelota{
+    width: 1.8vw;
+    height: 1.8vw;
+    border-radius: 50%;
+}
+
+.borde-terrenos{
+    border: 1.5px solid #003742;
 }
 
 .pelota-terrenos {
-    width: 2vw;
-    height: 2vw;
-    background-color: #2b4b61;
-    border-radius: 50%;
+    background-color: #003742;
+}
+
+.borde-profesionales{
+    border: 1.52px solid #039E9E;
 }
 
 .pelota-profesionales {
-    width: 2vw;
-    height: 2vw;
-    background-color: #599d9d;;
-    border-radius: 50%;
+    background-color: #039E9E;;
+}
+
+.borde-matariales{
+    border: 1.5px solid #019246;
 }
 
 .pelota-matariales {
-    width: 2vw;
-    height: 2vw;
-    background-color: #52914c;
-    border-radius: 50%;
+    background-color: #019246;
+}
 
+.borde-servicios{
+    border: 1.5px solid #F5921E;
 }
 
 .pelota-servicios {
-    width: 2vw;
-    height: 2vw;
-    background-color: #de922f;
-    border-radius: 50%;
+    background-color: #F5921E;
 }

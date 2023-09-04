@@ -3,7 +3,7 @@
   align-items: center;
   width: 100%;
   height: 80px;
-  background-color: #08495E;
+  background-color: #113a44;
   position: relative;
 }
 
@@ -29,13 +29,16 @@
   width: 100vw;
 }
 
+.navbar-dropdown{
+  padding: 10px 4.6vh;
+}
+
 .myText {
   font-size: 2.5vh;
   text-decoration: none;
   color: #fff;
   padding: 1vw 1vw;
-  font-weight: 100;
-  font-family: "Chivo","Raleway", sans-serif;
+  font-family: "Poppins-Light";
 }
 
 .divContact{
@@ -48,7 +51,7 @@
 .contact{
   position: end;
   border: 1px solid white;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 0.5vw 1vw;
 }
 
@@ -93,7 +96,7 @@ body {
 }
   
 .menu-items-collapse{
-  background-color: #08495E;
+  background-color: #003742;
 }
 
 .navbar-logo {
@@ -118,7 +121,7 @@ body {
   border: 2px solid white;
   color: white;
   font-size: x-large;
-  padding-bottom: 5px;
+  padding: 0px 1px 6px 1px;
 }
 
 ul {
@@ -136,6 +139,7 @@ li {
 
   .menu-collapse {
     display: block;
+    margin-right: 5vw;
   }
 
   .divText{
@@ -149,6 +153,10 @@ li {
   .navbar {
     min-height: 80px;
     height: auto;
+  }
+
+  .myNav{
+    justify-content: space-between;
   }
 
 }

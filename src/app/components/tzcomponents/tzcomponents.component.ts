@@ -21,9 +21,18 @@ export class TzcomponentsComponent {
 		config.keyboard = false;
 		config.pauseOnHover = false;
 
-    service.getSecciones().subscribe(data => {
-      this.secciones = data;
-    });
+    this.secciones = [
+      
+      { id: 0, nombre: 'APARTMENTS', descripcion: 'Mirá el paso a paso de nuestras obras', orden: 1, siguienteSeccion: 'HOME', siguienteOrden:2},
+      { id: 0, nombre: 'HOME', descripcion: 'Mirá el paso a paso de nuestras obras', orden: 2, siguienteSeccion: 'INDUSTRIA', siguienteOrden:3},
+      { id: 0, nombre: 'INDUSTRIA', descripcion: 'Mirá el paso a paso de nuestras obras', orden: 3, siguienteSeccion: 'FINANCIACION', siguienteOrden:4},
+      { id: 0, nombre: 'FINANCIACION', descripcion: 'Mirá el paso a paso de nuestras obras', orden: 4, siguienteSeccion: 'EJECUCION DE OBRAS', siguienteOrden:5},
+      { id: 0, nombre: 'EJECUCION DE OBRAS', descripcion: 'Mirá el paso a paso de nuestras obras', orden: 5, siguienteSeccion: 'APARTMENTS', siguienteOrden:1},
+  
+  ];
+    // service.getSecciones().subscribe(data => {
+    //   console.log( this.secciones);
+    // });
 	}
 
   @Input()

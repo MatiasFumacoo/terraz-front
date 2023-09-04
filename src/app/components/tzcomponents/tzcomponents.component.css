@@ -14,7 +14,6 @@
 }
 .text{
     width: 100%;
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -23,13 +22,17 @@
 .divTitle{
     width: 80%;
     margin-bottom: 3vh;
-
 }
 .title{
-    font-size: 4vw;
-    font-family: "Chivo","Raleway", sans-serif;
+    font-size: 5vw;
     font-weight: bold;
-    color: #08495E;
+    color: #003742;
+    text-align: start;
+}
+.title-tz{
+    font-size: 6.2vw;
+    font-weight: bold;
+    color: #003742;
     text-align: start;
 }
 .divDescription{
@@ -41,10 +44,8 @@
 }
 .description{
     width: 70%;
-    font-size: 1.5vw;
-    font-family: "Chivo","Raleway", sans-serif;
-    font-weight: 100;
-    color: #08495E;
+    font-size: 1.6vw;
+    color: #003742;
     margin: 0;
 }
 
@@ -54,12 +55,12 @@
     justify-content:  flex-start;
     align-items: center;
 }
+
 .myButton {
     background-color: transparent;
-    border: 1px solid #08495E;
+    border: 1px solid #003742;
     border-radius: 5px;
-    font-family: "Chivo","Raleway", sans-serif;
-    color: #08495E;
+    color: #003742;
     padding: 5px 1vw;
     font-size: 1vw;
     cursor: pointer;
@@ -67,8 +68,8 @@
 }
 
 .myButton:hover {
-background-color: #08495E;
-color: white;
+    background-color: #003742;
+    color: white;
 }
 
 
@@ -79,9 +80,9 @@ color: white;
 }
 
 .textBar{
-    font-size: 1.3vw;
+    font-size: 1.6vw;
     color: white;
-    font-weight: bold;
+    font-weight: 100;
 }
 .divNumBar{
     width: 30%;
@@ -91,33 +92,27 @@ color: white;
     align-items: center;
 }
 .numBar{
-    font-size: 3vw;
+    font-size: 5.5vw;
     color: white;
-    font-weight: bold;
     margin-bottom: 0 !important;
+    font-family: "KGWhattheTeacherWants";
 }
-
-
-
 
 .divTextBar{
     padding-right: 25px;
     border-right: 1px solid white;
 }
 
-
-
 .numero-gigante{
     color: #ECECEC;
-    font-size: 40vw;
+    font-size: 50vw;
+    width: 28vw;
     padding-left: 1vw;
-    font-weight: 700;
     z-index: 2;
-
     display: flex;
     align-items: center;
-    font-family: "Chivo","Raleway", sans-serif;
-
+    justify-content: center;
+    font-family: "KGWhattheTeacherWants";
 }
 
 .colored-div {
@@ -125,7 +120,7 @@ color: white;
     position: relative;
     display: flex;
     z-index: 3;
-    height: 40vw;
+    height: 45vw;
 }
 
 .colored-div::after {
@@ -136,7 +131,7 @@ color: white;
     left: 0;
     width: 100%;
     height: 9vw;
-    background-color: #08495E;
+    background-color: #003742;
 }
 
 .descripcion-cosas{

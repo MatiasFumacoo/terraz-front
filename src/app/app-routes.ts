@@ -8,6 +8,6 @@ import { DetallesComponent } from "./components/detalles/detalles.component";
 
 export const APP_ROUTES: Routes = [
     {path: '', component: HomeComponent},
-    {path: 'avance', component: THomeComponent},
+    {path: 'proyectos', component: THomeComponent},
     {path: 'detalles', component: DetallesComponent}
 ]

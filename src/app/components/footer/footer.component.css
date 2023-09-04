@@ -1,16 +1,23 @@
 .footer {
-    background-color: #08495E;
-    color: white;
-    padding: 20px;
-  }
-  
-  .footer-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.footer-text{
+  width: 100%;
+}
+
+.footer-terraz-img{
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
 .footer-icons {
   display: flex;
   justify-content: center;
@@ -20,20 +27,21 @@
 
 .footer-icon {
   color: white;
-  margin: 0 8px; /* Aumenta o disminuye este valor para ajustar la separación */
+  margin: 0 8px; 
   height: 20px;
 }
-  
-  .myPhoto {
-    width: 150px;
-  }
-  
-  .myText {
-    font-size: 12px;
-    font-family: "Chivo","Raleway", sans-serif;
-    margin-bottom: 0;
-    font-weight: 150;
-  }
+
+.myPhoto {
+  width: 150px;
+}
+
+.myText {
+  font-size: 17px;
+  font-family: "Poppins-Light";
+  margin-bottom: 0;
+  font-weight: 150;
+}
+
 .myIcon{
   font-size: 12px;
 }
