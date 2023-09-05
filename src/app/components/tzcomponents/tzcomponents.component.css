@@ -6,12 +6,14 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .myText{
     width: 50%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .text{
     width: 100%;
     display: flex;
@@ -19,10 +21,12 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .divTitle{
     width: 80%;
     margin-bottom: 3vh;
 }
+
 .title{
     font-size: 5vw;
     font-weight: bold;
@@ -37,6 +41,7 @@
     text-align: start;
     font-family: "Poppins-Black";
 }
+
 .divDescription{
     width: 65%;
     margin-bottom: 3vh;
@@ -44,6 +49,7 @@
     justify-content:  flex-start;
     align-items: center;
 }
+
 .description{
     width: 70%;
     font-size: 1.6vw;
@@ -74,7 +80,6 @@
     color: white;
 }
 
-
 .number{
     font-size: 50px;
     color: #ECECEC;
@@ -86,13 +91,14 @@
     color: white;
     font-weight: 100;
 }
+
 .divNumBar{
     width: 30%;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .numBar{
     font-size: 5.5vw;
     color: white;
@@ -157,10 +163,11 @@
 .custom-nav-arrows {
     color: white;
     font-size: 1.5vw;
-  }
-  .custom-next-arrow :hover{
+}
+
+.custom-next-arrow :hover{
     cursor: pointer;
-  }
+}
   
   .custom-prev-arrow,
   .custom-next-arrow {

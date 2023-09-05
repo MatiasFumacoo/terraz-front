@@ -1,8 +1,10 @@
 .center{
-  width: 80%;
+  width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .principal{
@@ -17,10 +19,11 @@
 }
 
 .myDescription{
-  width: 40%;
+  width: 586px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-right: 30px;
 }
 
 .description{
@@ -49,6 +52,7 @@
   gap: var(--g);
   width: calc(2*var(--s) + var(--g));
   grid-auto-flow: column;
+  margin-left: -330px;
 }
 
 .gallery > img {

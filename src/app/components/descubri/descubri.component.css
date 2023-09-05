@@ -199,7 +199,6 @@
 .borde-terrenos{
     border: 1.5px solid #003742;
 }
-
 .pelota-terrenos {
     background-color: #003742;
 }
@@ -208,6 +207,18 @@
     border: 1.52px solid #039E9E;
 }
 
+
+
+.contenedor-pelota-profesionales {
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #039E9E;
+}
 .pelota-profesionales {
     background-color: #039E9E;;
 }
@@ -224,6 +235,18 @@
     border: 1.5px solid #F5921E;
 }
 
+
+
+.contenedor-pelota-servicios {
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #F5921E;
+}
 .pelota-servicios {
     background-color: #F5921E;
 }
