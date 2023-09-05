@@ -28,12 +28,14 @@
     font-weight: bold;
     color: #003742;
     text-align: start;
+    font-family: "Poppins-Black";
 }
 .title-tz{
     font-size: 6.2vw;
     font-weight: bold;
     color: #003742;
     text-align: start;
+    font-family: "Poppins-Black";
 }
 .divDescription{
     width: 65%;

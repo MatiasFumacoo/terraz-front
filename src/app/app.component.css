@@ -43,6 +43,11 @@ body {
 }
 
 @font-face {
+    font-family: "Poppins-Black";
+    src: url("../assets/Fuentes/Poppins-Black.ttf");
+}
+
+@font-face {
     font-family: "KGWhattheTeacherWants";
     src: url("../assets/Fuentes/KGWhattheTeacherWants.ttf");
 }
